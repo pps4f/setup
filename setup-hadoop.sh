@@ -33,6 +33,9 @@ sudo tar xvf pig-0.14.0.tar
 sudo chown -R ubuntu /usr/local/pig-0.14.0
 export PATH=/usr/local/pig-0.14.0/bin:$PATH
 
+# Install Ant
+sudo apt-get install -y ant
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
